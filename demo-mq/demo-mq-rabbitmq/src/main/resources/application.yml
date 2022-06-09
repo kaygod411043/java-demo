@@ -1,0 +1,10 @@
+
+spring:
+  rabbitmq:
+    addresses: 192.168.1.100
+    port: 5672
+    username: 'demo'
+    password: 'demo123456.'
+    publisher-confirm-type: CORRELATED
+server:
+  port: 8088
